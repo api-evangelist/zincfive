@@ -1,7 +1,24 @@
 aid: zincfive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zincfive.png
 name: zincfive
-description: zincfive is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ZincFive is a power solutions company that manufactures nickel-zinc (NiZn)
+  battery technology for mission-critical and backup power applications, including data
+  center UPS systems, AI dynamic power, and grid storage. Its product line covers BC
+  Series UPS battery cabinets, NiZn retrofit kits, monobloc batteries, and cylindrical
+  cells, positioned as non-flammable, high-power-density, and highly recyclable alternatives
+  to lead-acid batteries. ZincFive publishes technical documents, papers, and industry
+  insights reports, but does not expose a public developer API or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/zincfive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy Storage
+- Batteries
+- Data Center
+- Power
+- UPS
+- Hardware
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://zincfive.com
+- type: Documentation
+  url: https://zincfive.com/technical-documents/
+- type: Blog
+  url: https://zincfive.com/blog/
+- type: Support
+  url: https://zincfive.com/support/
+- type: PrivacyPolicy
+  url: https://zincfive.com/privacy
+- type: DomainSecurity
+  url: security/zincfive-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
