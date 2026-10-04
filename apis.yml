@@ -44,7 +44,7 @@ tags:
 - Company
 - Energy Storage
 - Batteries
-- Data-Center
+- Data Center
 - Power
 - UPS
 - Hardware
@@ -58,6 +58,7 @@ tags_raw:
 - UPS
 - Hardware
 - Sustainability
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
